@@ -1,6 +1,4 @@
-# Jakarta Coffee Builder
-
-## Welcome to Jakarta Coffee Builder
+# Welcome to Jakarta Coffee Builder
 
 Jakarta Coffee Builder is a project that makes it easy to create Jakarta EE projects in a clean, clear, lightweight and compatible way for all Jakarta EE implementations such as Payara, GlassFish, OpenLiberty, etc.
 

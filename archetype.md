@@ -1,4 +1,4 @@
-## Jakarta EE Essentials Archetype
+# Jakarta EE Essentials Archetype
 
 With this archetype you can create a Jakarta EE project with minimal dependencies and configurations.
 

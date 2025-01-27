@@ -1,4 +1,4 @@
-## Jakarta Coffee Builder Plugin
+# Jakarta Coffee Builder Plugin
 
 This plugin allows you to add Jakarta EE functionality, including dependencies (if missing) and sample code in a light, fast and clear way.
 
