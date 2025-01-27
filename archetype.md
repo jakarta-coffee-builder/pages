@@ -1,0 +1,29 @@
+## Jakarta EE Essentials Archetype
+
+With this archetype you can create a Jakarta EE project with minimal dependencies and configurations.
+
+This will allow you to have a clean and clear `pom.xml` file so you can add more configurations as needed.
+
+### Usage
+
+To create a new Jakarta EE project using this archetype, run the following command:
+
+```shell
+mvn -DarchetypeGroupId=com.apuntesdejava \
+    -DarchetypeArtifactId=jakarta-ee-essentials \
+    -DjakartaProfile={jakartaProfile} \
+    -DjakartaVersion={jakartaVersion} \
+    org.apache.maven.plugins:maven-archetype-plugin:generate 
+```
+
+Values for `jakartaProfile` property:
+- core
+- web
+- full (default)
+
+Values for `jakartaVersion` property:
+- 10.0.0
+- 11.0.0 (default)
+
+### 📌 Note
+As of this post, it is only creating the dependency for Jakarta EE 11, version 11.0.0-M4
