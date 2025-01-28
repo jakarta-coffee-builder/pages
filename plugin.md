@@ -1,4 +1,5 @@
 # Jakarta Coffee Builder Plugin
+![GitHub last commit](https://img.shields.io/github/last-commit/jakarta-coffee-builder/jakarta-coffee-builder-plugin)
 
 This plugin allows you to add Jakarta EE functionality, including dependencies (if missing) and sample code in a light, fast and clear way.
 
