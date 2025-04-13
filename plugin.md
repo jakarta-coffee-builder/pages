@@ -1,5 +1,7 @@
-# Jakarta Coffee Builder Plugin
+# Jakarta Coffee Builder Plugin 
+![Maven Central Version](https://img.shields.io/maven-central/v/com.apuntesdejava/jakarta-coffee-builder-plugin)
 ![GitHub last commit](https://img.shields.io/github/last-commit/jakarta-coffee-builder/jakarta-coffee-builder-plugin)
+[![GitHub](https://img.shields.io/badge/maven-plugin-darkgreen?logo=github)](https://github.com/jakarta-coffee-builder/jakarta-coffee-builder-plugin)
 
 This plugin allows you to add Jakarta EE functionality, including dependencies (if missing) and sample code in a light, fast and clear way.
 
@@ -102,3 +104,86 @@ mvn com.apuntesdejava:jakarta-coffee-builder-plugin:add-datasource
 | `properties`       | This parameter defines the properties of the DataSource. This value will be included in the DataSource configuration.   |                               |
 | `persistence-unit` | This parameter defines the name of the persistence unit. This value will be included in the persistence configuration.  |                               | 
 
+
+### Add Jakarta Persistence Entity
+```shell
+mvn com.apuntesdejava:jakarta-coffee-builder-plugin:add-entities
+
+```
+
+**Parameters**
+
+| Parameter       | Definition                                                                                        | Example                                                                                                  |
+|-----------------|---------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
+| `entities-file` | The name of the json file that contains the list of entities and their definitions to be created. | https://github.com/jakarta-coffee-builder/jakarta-coffee-builder-plugin/blob/main/examples/entities.json |
+
+**Example JSON File**
+```json
+[
+  {
+    "name": "Coffee",
+    "repository": "crud",
+    "fields": [
+      {
+        "name": "id",
+        "type": "Long",
+        "isId": true
+      },
+      {
+        "name": "name",
+        "type": "String",
+        "column": {
+          "name": "coffee_name",
+          "length": 100,
+          "unique": true,
+          "nullable": false
+        }
+      },
+      {
+        "name": "price",
+        "type": "Double"
+      }
+    ]
+  },
+  {
+    "name": "Order",
+    "table": "order_",
+    "repository": "data",
+    "fields": [
+      {
+        "name": "id",
+        "type": "Long",
+        "isId": true
+      },
+      {
+        "name": "coffee",
+        "type": "Coffee",
+        "manyToOne": true,
+        "joinColumn": {
+          "name": "coffee_id",
+          "nullable": false
+        }
+      },
+      {
+        "name": "quantity",
+        "type": "Integer"
+      }
+    ]
+  }
+]
+```
+
+### Create REST services with OpenAPI specifications
+
+```shell
+mvn com.apuntesdejava:jakarta-coffee-builder-plugin:create-openapi 
+```
+
+**Parameters**
+
+| Parameter        | Definition                                                                        | Example                                                                                                 |
+|------------------|-----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
+| `openapi-server` | The name of the yml file is specified with the server-side OpenAPI specification. | https://github.com/jakarta-coffee-builder/jakarta-coffee-builder-plugin/blob/main/examples/openapi.yaml |
+
+**Note**
+- Each endpoint must be identified by a label
