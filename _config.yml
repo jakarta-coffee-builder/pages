@@ -3,3 +3,4 @@ description: Jakarta EE Project Generator
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-hacker
+central_sonatype_url: https://central.sonatype.com/namespace/com.apuntesdejava
