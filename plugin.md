@@ -113,9 +113,9 @@ mvn com.apuntesdejava:jakarta-coffee-builder-plugin:add-entities
 
 **Parameters**
 
-| Parameter       | Definition                                                                                        | Example                                                                                                  |
-|-----------------|---------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|
-| `entities-file` | The name of the json file that contains the list of entities and their definitions to be created. | https://github.com/jakarta-coffee-builder/jakarta-coffee-builder-plugin/blob/main/examples/entities.json |
+| Parameter       | Definition                                                                                        | Example                                                                                                                   |
+|-----------------|---------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
+| `entities-file` | The name of the json file that contains the list of entities and their definitions to be created. | [entities.json](https://github.com/jakarta-coffee-builder/jakarta-coffee-builder-plugin/blob/main/examples/entities.json) |
 
 **Example JSON File**
 ```json
@@ -181,9 +181,9 @@ mvn com.apuntesdejava:jakarta-coffee-builder-plugin:create-openapi
 
 **Parameters**
 
-| Parameter        | Definition                                                                        | Example                                                                                                 |
-|------------------|-----------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------|
-| `openapi-server` | The name of the yml file is specified with the server-side OpenAPI specification. | https://github.com/jakarta-coffee-builder/jakarta-coffee-builder-plugin/blob/main/examples/openapi.yaml |
+| Parameter        | Definition                                                                        | Example                                                                                                                 |
+|------------------|-----------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------|
+| `openapi-server` | The name of the yml file is specified with the server-side OpenAPI specification. | [openapi.yaml](https://github.com/jakarta-coffee-builder/jakarta-coffee-builder-plugin/blob/main/examples/openapi.yaml) |
 
 **Note**
 - Each endpoint must be identified by a label
