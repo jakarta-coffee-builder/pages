@@ -21,13 +21,30 @@ mvn -DarchetypeGroupId=com.apuntesdejava \
 ```
 
 Values for `jakartaProfile` property:
-- core
-- web
-- full (default)
+- `core`
+- `web`
+- `full` (default)
 
 Values for `jakartaVersion` property:
-- 10.0.0
-- 11.0.0 (default)
+- `10.0.0`
+- `11.0.0` (default)
 
 ### 📌 Note
 As of this post, it is only creating the dependency for Jakarta EE 11, version 11.0.0-M4
+
+### Example
+
+```shell
+mvn -DarchetypeGroupId=com.apuntesdejava \
+    -DarchetypeArtifactId=jakarta-ee-essentials \
+    -DgroupId=com.example \
+    -DartifactId=example-app \
+    -Dversion=1.0-SNAPSHOT \
+    -DjakartaProfile=full \
+    -DjakartaVersion=11.0.0 \
+    org.apache.maven.plugins:maven-archetype-plugin:generate 
+```
+
+
+***Showing***
+[![asciicast](https://asciinema.org/a/86ooZkGxggx6VaxrZlZDje9NO.svg)](https://asciinema.org/a/86ooZkGxggx6VaxrZlZDje9NO)
