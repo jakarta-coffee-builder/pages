@@ -8,6 +8,9 @@ With this archetype you can create a Jakarta EE project with minimal dependencie
 
 This will allow you to have a clean and clear `pom.xml` file so you can add more configurations as needed.
 
+* TOC
+{:toc}
+
 ### Usage
 
 To create a new Jakarta EE project using this archetype, run the following command:
@@ -46,5 +49,5 @@ mvn -DarchetypeGroupId=com.apuntesdejava \
 ```
 
 
-***Showing***
+### Showing
 [![asciicast](https://asciinema.org/a/86ooZkGxggx6VaxrZlZDje9NO.svg)](https://asciinema.org/a/86ooZkGxggx6VaxrZlZDje9NO)
