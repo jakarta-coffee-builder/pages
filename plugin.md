@@ -1,3 +1,6 @@
+* TOC
+{:toc}
+
 # Jakarta Coffee Builder Plugin 
 ![Maven Central Version](https://img.shields.io/maven-central/v/com.apuntesdejava/jakarta-coffee-builder-plugin)
 ![GitHub last commit](https://img.shields.io/github/last-commit/jakarta-coffee-builder/jakarta-coffee-builder-plugin)
@@ -46,6 +49,10 @@ mvn com.apuntesdejava:jakarta-coffee-builder-plugin:add-faces
 </web-app>
 
 ```
+
+**Showing**
+[![asciicast](https://asciinema.org/a/oAMUDHRcFDkPHBq9pVeBXR4uw.svg)](https://asciinema.org/a/oAMUDHRcFDkPHBq9pVeBXR4uw)
+
 
 ### Add Jakarta Faces Page
 

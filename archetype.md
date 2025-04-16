@@ -1,15 +1,16 @@
+* TOC
+{:toc}
+
 # Jakarta EE Essentials Archetype 
 ![Maven Central Version](https://img.shields.io/maven-central/v/com.apuntesdejava/jakarta-ee-essentials)
 ![Maven Central Last Update](https://img.shields.io/maven-central/last-update/com.apuntesdejava/jakarta-ee-essentials) 
 [![GitHub](https://img.shields.io/badge/maven-archetype-darkgreen?logo=github)](https://github.com/jakarta-coffee-builder/jakarta-ee-essentials)
 
 
-With this archetype you can create a Jakarta EE project with minimal dependencies and configurations.
+With this archetype, you can create a Jakarta EE project with minimal dependencies and configurations.
 
 This will allow you to have a clean and clear `pom.xml` file so you can add more configurations as needed.
 
-* TOC
-{:toc}
 
 ### Usage
 
