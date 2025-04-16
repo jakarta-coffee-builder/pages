@@ -51,7 +51,7 @@ mvn com.apuntesdejava:jakarta-coffee-builder-plugin:add-faces
 ```
 
 **Showing**
-[![asciicast](https://asciinema.org/a/oAMUDHRcFDkPHBq9pVeBXR4uw.svg)](https://asciinema.org/a/oAMUDHRcFDkPHBq9pVeBXR4uw)
+[![asciicast](https://asciinema.org/a/30Zyd628az3toF03XtZ5eSLRc.svg)](https://asciinema.org/a/30Zyd628az3toF03XtZ5eSLRc)
 
 
 ### Add Jakarta Faces Page
@@ -69,6 +69,12 @@ mvn com.apuntesdejava:jakarta-coffee-builder-plugin:add-face-page
 | `name`         | Name of the Face page to create                                                                       |               |
 | `managed-bean` | Boolean value indicating whether or not the Managed Bean class associated with the Face is created.   | `true`        |
 | `template`     | Path of the Facelet template to be implemented for the Face to be created. This parameter is optional |               |
+
+
+**Showing**
+
+Creating page with / without Managed Bean:
+[![asciicast](https://asciinema.org/a/And0N0LueNSaMCKV9VnyKm1gr.svg)](https://asciinema.org/a/And0N0LueNSaMCKV9VnyKm1gr)
 
 
 ## Jakarta Persistence

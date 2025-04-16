@@ -44,11 +44,11 @@ mvn -DarchetypeGroupId=com.apuntesdejava \
     -DgroupId=com.example \
     -DartifactId=example-app \
     -Dversion=1.0-SNAPSHOT \
-    -DjakartaProfile=full \
+    -DjakartaProfile=core \
     -DjakartaVersion=11.0.0 \
     org.apache.maven.plugins:maven-archetype-plugin:generate 
 ```
 
 
 ### Showing
-[![asciicast](https://asciinema.org/a/86ooZkGxggx6VaxrZlZDje9NO.svg)](https://asciinema.org/a/86ooZkGxggx6VaxrZlZDje9NO)
+[![asciicast](https://asciinema.org/a/VybSbO8RQKmQQhSrTkMxcUzeI.svg)](https://asciinema.org/a/VybSbO8RQKmQQhSrTkMxcUzeI)
