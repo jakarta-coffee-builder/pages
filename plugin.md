@@ -180,6 +180,8 @@ mvn com.apuntesdejava:jakarta-coffee-builder-plugin:add-entities
 ]
 ```
 
+## Jakarta RESTful Web Services
+
 ### Create REST services with OpenAPI specifications
 
 ```shell
