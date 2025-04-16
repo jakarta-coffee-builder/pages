@@ -112,6 +112,19 @@ mvn com.apuntesdejava:jakarta-coffee-builder-plugin:add-face-template \
 **Showing**
 [![asciicast](https://asciinema.org/a/tD2VpNkH5EHSQaTYRu9pasArc.svg)](https://asciinema.org/a/tD2VpNkH5EHSQaTYRu9pasArc)
 
+
+### Using Facelet template in Face page
+
+To use the Facelet template in the Face page, you need to run this command (by example, to use the template created in the previous step):
+
+```shell
+mvn com.apuntesdejava:jakarta-coffee-builder-plugin:add-face-page \
+    -Dname=products \
+    -Dtemplate=/WEB-INF/template/main.xhtml
+```
+**Showing**
+[![asciicast](https://asciinema.org/a/YZie5pQs2igDZAuBeHWgfkdBM.svg)](https://asciinema.org/a/YZie5pQs2igDZAuBeHWgfkdBM)
+
 ## Jakarta Persistence
 
 ### Add Jakarta Persistence Configuration
