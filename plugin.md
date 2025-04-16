@@ -71,6 +71,18 @@ mvn com.apuntesdejava:jakarta-coffee-builder-plugin:add-face-page
 | `template`     | Path of the Facelet template to be implemented for the Face to be created. This parameter is optional |               |
 
 
+**Example**
+```shell
+mvn com.apuntesdejava:jakarta-coffee-builder-plugin:add-face-page \
+    -Dname=hello-world \
+    -Dmanaged-bean=false  
+    
+mvn com.apuntesdejava:jakarta-coffee-builder-plugin:add-face-page \
+    -Dname=persons \
+    -Dmanaged-bean=true  
+    
+```
+
 **Showing**
 
 Creating page with / without Managed Bean:
