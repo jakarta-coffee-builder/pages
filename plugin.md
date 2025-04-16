@@ -89,6 +89,29 @@ Creating page with / without Managed Bean:
 [![asciicast](https://asciinema.org/a/And0N0LueNSaMCKV9VnyKm1gr.svg)](https://asciinema.org/a/And0N0LueNSaMCKV9VnyKm1gr)
 
 
+### Create Jakarta Face Facelet (Template)
+Add a Facelet template to be used in the Face page
+
+```shell
+mvn com.apuntesdejava:jakarta-coffee-builder-plugin:add-face-template
+```
+
+**Parameters**
+
+| Parameter | Definition                                                                       | Example                            |  
+|-----------|----------------------------------------------------------------------------------|------------------------------------|
+| `name`    | Name of the Facelet template to create                                           | `/WEB-INF/template/template.xhtml` |      
+| `inserts` | List of block names to be used for insertion. Names must be separated by commas. | `block1,block2,block3`             |
+
+**Example**
+```shell
+mvn com.apuntesdejava:jakarta-coffee-builder-plugin:add-face-template \
+    -Dname=/WEB-INF/template/main.xhtml \
+    -Dinserts=header,body,footer
+```
+**Showing**
+[![asciicast](https://asciinema.org/a/tD2VpNkH5EHSQaTYRu9pasArc.svg)](https://asciinema.org/a/tD2VpNkH5EHSQaTYRu9pasArc)
+
 ## Jakarta Persistence
 
 ### Add Jakarta Persistence Configuration
