@@ -11,5 +11,6 @@ At the moment we have these two projects:
 - [Jakarta Coffee Builder - Archetype Essentials](archetype.md)
   - ![Maven Central Version](https://img.shields.io/maven-central/v/com.apuntesdejava/jakarta-ee-essentials)  ![GitHub last commit](https://img.shields.io/github/last-commit/jakarta-coffee-builder/jakarta-ee-essentials)  [![GitHub](https://img.shields.io/badge/maven-archetype-darkgreen?logo=github)](https://github.com/jakarta-coffee-builder/jakarta-ee-essentials)
 - [Jakarta Coffee Builder - Plugin](plugin.md)
-  - ![Maven Central Version](https://img.shields.io/maven-central/v/com.apuntesdejava/jakarta-coffee-builder-plugin)  ![GitHub last commit](https://img.shields.io/github/last-commit/jakarta-coffee-builder/jakarta-coffee-builder-plugin)  [![GitHub](https://img.shields.io/badge/maven-plugin-darkgreen?logo=github)](https://github.com/jakarta-coffee-builder/jakarta-coffee-builder-plugin)
+  - ![Maven Central Version](https://img.shields.io/maven-central/v/com.apuntesdejava/jakarta-coffee-builder-plugin)  ![GitHub last commit](https://img.shields.io/github/last-commit/jakarta-coffee-builder/jakarta-coffee-builder-plugin)  [![GitHub](https://img.shields.io/badge/maven-plugin-darkgreen?logo=github)](https://github.com/jakarta-coffee-builder/jakarta-coffee-builder-plugin) ![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/jakarta-coffee-builder/jakarta-coffee-builder-plugin/maven-ci-cd.yml)
+
    

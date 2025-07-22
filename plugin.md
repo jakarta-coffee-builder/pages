@@ -5,6 +5,7 @@
 ![Maven Central Version](https://img.shields.io/maven-central/v/com.apuntesdejava/jakarta-coffee-builder-plugin)
 ![GitHub last commit](https://img.shields.io/github/last-commit/jakarta-coffee-builder/jakarta-coffee-builder-plugin)
 [![GitHub](https://img.shields.io/badge/maven-plugin-darkgreen?logo=github)](https://github.com/jakarta-coffee-builder/jakarta-coffee-builder-plugin)
+![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/jakarta-coffee-builder/jakarta-coffee-builder-plugin/maven-ci-cd.yml)
 
 This plugin allows you to add Jakarta EE functionality, including dependencies (if missing) and sample code in a light, fast and clear way.
 
