@@ -1,0 +1,72 @@
+{
+  "CategoryList": {
+    "entity": "Category",
+    "title": "Categories List",
+    "base": "/",
+    "template": {
+      "facelet": "/WEB-INF/templates/template1.xhtml",
+      "define": "body"
+    },
+    "fields": {
+      "id": {
+        "label": "Category Id"
+      },
+      "name": {
+        "label": "Category Name"
+      }
+    }
+  },
+  "TagList": {
+    "entity": "Tag",
+    "title": "Tags List",
+    "base": "/",
+    "template": {
+      "facelet": "/WEB-INF/templates/template1.xhtml",
+      "define": "body"
+    },
+    "fields": {
+      "id": {
+        "label": "Tag Id"
+      },
+      "name": {
+        "label": "Tag Name"
+      }
+    }
+  },
+  "UserList": {
+    "entity": "User",
+    "title": "Users List",
+    "base": "/",
+    "template": {
+      "facelet": "/WEB-INF/templates/template1.xhtml",
+      "define": "body"
+    },
+    "fields": {
+      "id": {
+        "label": "User Id"
+      },
+      "username": {
+        "label": "Username"
+      },
+      "firstName": {
+        "label": "First name"
+      },
+      "lastName": {
+        "label": "Last name"
+      },
+      "email": {
+        "label": "Email"
+      },
+      "password": {
+        "label": "Password"
+      },
+      "phone": {
+        "label": "Phone number"
+      },
+      "userStatus": {
+        "label": "Status"
+      }
+    }
+  },
+  "indexTo": "/index.xhtml"
+}

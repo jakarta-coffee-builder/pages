@@ -1,0 +1,138 @@
+{
+  "Tag": {
+    "fields": {
+      "id": {
+        "type": "Long",
+        "isId": true,
+        "generatedValue": "Identity"
+      },
+      "name": {
+        "type": "String",
+        "column": {
+          "length": 100
+        }
+      }
+    }
+  },
+  "Category": {
+    "fields": {
+      "id": {
+        "type": "Long",
+        "isId": true,
+        "generatedValue": "Identity"
+      },
+      "name": {
+        "type": "String",
+        "column": {
+          "length": 100
+        }
+      }
+    }
+  },
+  "Order": {
+    "fields": {
+      "id": {
+        "type": "Long",
+        "isId": true,
+        "generatedValue": "Identity"
+      },
+      "pet": {
+        "type": "Pet",
+        "manyToOne": true,
+        "joinColumn": {
+          "name": "pet_id",
+          "nullable": false
+        }
+      },
+      "quantity": {
+        "type": "Integer"
+      },
+      "shipDate": {
+        "type": "LocalDateTime",
+        "column": {
+          "name": "ship_date"
+        }
+      },
+      "complete": {
+        "type": "Boolean"
+      },
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "Pet": {
+    "fields": {
+      "id": {
+        "type": "Long",
+        "isId": true,
+        "generatedValue": "Identity"
+      },
+      "category": {
+        "type": "Category",
+        "manyToOne": true,
+        "joinColumn": {
+          "name": "category_id",
+          "nullable": false
+        }
+      },
+      "name": {
+        "type": "String",
+        "column": {
+          "length": 100
+        }
+      },
+      "status": {
+        "type": "String"
+      }
+    }
+  },
+  "User": {
+    "fields": {
+      "id": {
+        "type": "Long",
+        "isId": true,
+        "generatedValue": "Identity"
+      },
+      "username": {
+        "type": "String",
+        "column": {
+          "length": 100
+        }
+      },
+      "firstName": {
+        "type": "String",
+        "column": {
+          "length": 100
+        }
+      },
+      "lastName": {
+        "type": "String",
+        "column": {
+          "length": 100
+        }
+      },
+      "email": {
+        "type": "String",
+        "column": {
+          "length": 100
+        }
+      },
+      "password": {
+        "type": "String",
+        "column": {
+          "length": 100
+        }
+      },
+      "phone": {
+        "type": "String",
+        "column": {
+          "length": 100
+        }
+      },
+      "userStatus": {
+        "type": "Integer"
+      }
+    }
+  }
+}
