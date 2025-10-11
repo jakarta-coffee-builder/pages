@@ -178,7 +178,50 @@ mvn com.apuntesdejava:jakarta-coffee-builder-plugin:add-entities
 
 **Example JSON File**
 ```json
-``
+{
+  "Category": {
+    "fields": {
+      "id": {
+        "type": "UUID",
+        "isId": true,
+        "generatedValue": "UUID"
+      },
+      "name": {
+        "type": "String",
+        "column": {
+          "length": 100
+        }
+      }
+    }
+  },
+  "Pet": {
+    "fields": {
+      "id": {
+        "type": "Long",
+        "isId": true,
+        "generatedValue": "Identity"
+      },
+      "category": {
+        "type": "Category",
+        "manyToOne": true,
+        "joinColumn": {
+          "name": "category_id",
+          "nullable": false
+        }
+      },
+      "name": {
+        "type": "String",
+        "column": {
+          "length": 100
+        }
+      },
+      "status": {
+        "type": "String"
+      }
+    }
+  } 
+}
+```
 
 
 ## Jakarta RESTful Web Services
