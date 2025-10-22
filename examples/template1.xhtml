@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="jakarta.faces.facelets"
+      xmlns:f="jakarta.faces.core"
+      xmlns:h="jakarta.faces.html">
+<f:view contentType="text/html;charset=UTF-8" encoding="UTF-8">
+    <h:head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <link rel="stylesheet" href="https://unpkg.com/primeflex@latest/primeflex.css"/>
+        <title>
+            <ui:insert name="title">title</ui:insert>
+        </title>
+    </h:head>
+
+    <h:body>
+        <div class="grid">
+            <div class="col-12">
+                <ui:insert name="header">
+                    <h1 class="text-5xl">Pet Store</h1>
+                </ui:insert>
+            </div>
+            <div class="col-2">
+                <ui:insert name="left">
+                    <ul>
+                        <li><h:link outcome="/CategoryList" value="Categories List"/></li>
+                        <li><h:link outcome="/TagList" value="Tags List"/></li>
+                        <li><h:link outcome="/UserList" value="Users List"/></li>
+                    </ul>
+                </ui:insert>
+            </div>
+            <div class="col-10">
+                <ui:insert name="body">body</ui:insert>
+            </div>
+            <div class="col-12">
+                <ui:insert name="footer">footer</ui:insert>
+            </div>
+        </div>
+
+    </h:body>
+</f:view>
+</html>
