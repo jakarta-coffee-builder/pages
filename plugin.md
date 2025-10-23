@@ -59,7 +59,7 @@ mvn com.apuntesdejava:jakarta-coffee-builder-plugin:add-faces
 Add a Facelet page
 
 ```shell
-mvn "com.apuntesdejava:jakarta-coffee-builder-plugin:0.0.2-SNAPSHOT:add-face-template" 
+mvn "com.apuntesdejava:jakarta-coffee-builder-plugin:0.0.4:add-face-template" 
 ```
 
 **Parameters**
@@ -73,7 +73,7 @@ mvn "com.apuntesdejava:jakarta-coffee-builder-plugin:0.0.2-SNAPSHOT:add-face-tem
 
 **Example**
 ```shell
-mvn com.apuntesdejava:jakarta-coffee-builder-plugin:add-face-template \
+mvn com.apuntesdejava:jakarta-coffee-builder-plugin:0.0.4:add-face-template \
     -Dname=/WEB-INF/template/main.xhtml \
     -Dinserts=header,body,footer
 ```
@@ -85,7 +85,7 @@ mvn com.apuntesdejava:jakarta-coffee-builder-plugin:add-face-template \
 Add a Face page, associating it with a Managed Bean. It can also be done by using a specified Facelet template
 
 ```shell
-mvn com.apuntesdejava:jakarta-coffee-builder-plugin:add-face-page
+mvn com.apuntesdejava:jakarta-coffee-builder-plugin:0.0.4:add-face-page
 ```
 
 **Parameters**
@@ -100,11 +100,11 @@ mvn com.apuntesdejava:jakarta-coffee-builder-plugin:add-face-page
 
 **Example**
 ```shell
-mvn com.apuntesdejava:jakarta-coffee-builder-plugin:add-face-page \
+mvn com.apuntesdejava:jakarta-coffee-builder-plugin:0.0.4:add-face-page \
     -Dname=hello-world \
     -Dmanaged-bean=false
 
-mvn com.apuntesdejava:jakarta-coffee-builder-plugin:add-face-page \
+mvn com.apuntesdejava:jakarta-coffee-builder-plugin:0.0.4:add-face-page \
     -Dname=persons \
     -Dmanaged-bean=true
 
@@ -123,7 +123,7 @@ Creating page with / without Managed Bean:
 Add Jakarta Persistence configuration in `persistence.xml` file
 
 ```shell
-mvn com.apuntesdejava:jakarta-coffee-builder-plugin:add-persistence
+mvn com.apuntesdejava:jakarta-coffee-builder-plugin:0.0.4:add-persistence
 ```
 
 **Parameters**
@@ -146,7 +146,7 @@ mvn com.apuntesdejava:jakarta-coffee-builder-plugin:add-persistence
 Add DataSource configuration 
 
 ```shell
-mvn com.apuntesdejava:jakarta-coffee-builder-plugin:add-datasource
+mvn com.apuntesdejava:jakarta-coffee-builder-plugin:0.0.4:add-datasource
 ```
 
 **Parameters**
@@ -166,7 +166,7 @@ mvn com.apuntesdejava:jakarta-coffee-builder-plugin:add-datasource
 
 ### Add Jakarta Persistence Entity
 ```shell
-mvn com.apuntesdejava:jakarta-coffee-builder-plugin:add-entities
+mvn com.apuntesdejava:jakarta-coffee-builder-plugin:0.0.4:add-entities
 
 ```
 
@@ -229,7 +229,7 @@ mvn com.apuntesdejava:jakarta-coffee-builder-plugin:add-entities
 ### Create REST services with OpenAPI specifications
 
 ```shell
-mvn com.apuntesdejava:jakarta-coffee-builder-plugin:create-openapi
+mvn com.apuntesdejava:jakarta-coffee-builder-plugin:0.0.4:create-openapi
 ```
 
 **Parameters**
@@ -246,7 +246,7 @@ mvn com.apuntesdejava:jakarta-coffee-builder-plugin:create-openapi
 Add Glassfish Embedded Plugin
 
 ```shell
-mvn com.apuntesdejava:jakarta-coffee-builder-plugin:add-glassfish-embedded
+mvn com.apuntesdejava:jakarta-coffee-builder-plugin:0.0.4:add-glassfish-embedded
 ```
 
 
@@ -263,7 +263,7 @@ mvn com.apuntesdejava:jakarta-coffee-builder-plugin:add-glassfish-embedded
 Add PayaraMicro Plugin
 
 ```shell
-mvn com.apuntesdejava:jakarta-coffee-builder-plugin:add-payaramicro
+mvn com.apuntesdejava:jakarta-coffee-builder-plugin:0.0.4:add-payaramicro
 ```
 
 ### Add Domain Model
@@ -271,7 +271,7 @@ mvn com.apuntesdejava:jakarta-coffee-builder-plugin:add-payaramicro
 The domain model is based using the definition of entities
 
 ```shell
-mvn com.apuntesdejava:jakarta-coffee-builder-plugin:add-domain-model
+mvn com.apuntesdejava:jakarta-coffee-builder-plugin:0.0.4:add-domain-model
 ```
 
 **Parameters**
@@ -283,14 +283,14 @@ mvn com.apuntesdejava:jakarta-coffee-builder-plugin:add-domain-model
 **Example**
 
 ```shell
-mvn com.apuntesdejava:jakarta-coffee-builder-plugin:add-domain-model \
+mvn com.apuntesdejava:jakarta-coffee-builder-plugin:0.0.4:add-domain-model \
     -Dentities-file=entities.json
 ```
 
 ### Add Forms (Primefaces) from Entities
 
 ```shell
-mvn com.apuntesdejava:jakarta-coffee-builder-plugin:add-forms-from-entities
+mvn com.apuntesdejava:jakarta-coffee-builder-plugin:0.0.4:add-forms-from-entities
 ```
 
 **Parameters**
