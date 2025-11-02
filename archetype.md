@@ -19,7 +19,7 @@ To create a new Jakarta EE project using this archetype, run the following comma
 ```shell
 mvn -DarchetypeGroupId=com.apuntesdejava \
     -DarchetypeArtifactId=jakarta-ee-essentials \
-    -DarchetypeVersion=0.0.3 \
+    -DarchetypeVersion=0.0.4 \
     -DjakartaProfile={jakartaProfile} \
     -DjakartaModule={jakartaModule} \
     -DjakartaVersion={jakartaVersion} \
@@ -51,7 +51,7 @@ mvn -DarchetypeGroupId=com.apuntesdejava \
     -DgroupId=com.example \
     -DartifactId=example-app \
     -Dversion=1.0.0-SNAPSHOT \
-    -DarchetypeVersion=0.0.3 \
+    -DarchetypeVersion=0.0.4 \
     -DjakartaProfile=core \
     -DjakartaVersion=11.0.0 \
     org.apache.maven.plugins:maven-archetype-plugin:generate 

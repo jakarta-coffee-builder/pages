@@ -59,7 +59,7 @@ mvn com.apuntesdejava:jakarta-coffee-builder-plugin:add-faces
 Add a Facelet page
 
 ```shell
-mvn "com.apuntesdejava:jakarta-coffee-builder-plugin:0.0.2-SNAPSHOT:add-face-template" 
+mvn "com.apuntesdejava:jakarta-coffee-builder-plugin:add-face-template" 
 ```
 
 **Parameters**
