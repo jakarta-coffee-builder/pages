@@ -30,6 +30,7 @@
     }
   },
   "Order": {
+    "table": "Order_",
     "fields": {
       "id": {
         "type": "Long",
@@ -88,6 +89,7 @@
     }
   },
   "User": {
+    "table": "User_",
     "fields": {
       "id": {
         "type": "Long",
